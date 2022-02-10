@@ -3,10 +3,28 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [done, setDone] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_z89eu6c",
+        "template_hd47lyk",
+        formRef.current,
+        "user_jBisT7Wa029MPwFdBLCFs"
+      )
+      .then(
+        (result) => {
+          setDone(true);
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   const formRef = useRef();
@@ -47,6 +65,7 @@ const Contact = () => {
             <button>Submit</button>
           </form>
         </div>
+        {done && "Thank you for submitting..."}
       </div>
     </div>
   );

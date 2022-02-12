@@ -41,17 +41,32 @@
 }
 
 @keyframes move {
+  0% {
+    transform: translateY(0px);
+  }
+  12.5% {
+    transform: translateY(0px);
+  }
   25% {
     transform: translateY(-50px);
   }
-  50% {
+  37.5% {
     transform: translateY(-100px);
   }
-  75% {
+  50% {
     transform: translateY(-150px);
   }
-  100% {
+  62.5% {
     transform: translateY(-200px);
+  }
+  75% {
+    transform: translateY(-250px);
+  }
+  87.5% {
+    transform: translateY(-300px);
+  }
+  100% {
+    transform: translateY(-350px);
   }
 }
 

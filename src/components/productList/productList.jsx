@@ -2,16 +2,14 @@ import React from "react";
 import Product from "../product/product";
 import "./productList.css";
 import { products } from "../../data";
+
 const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Aeon</h1>
+        <h1 className="pl-title">Projects & Portfolio</h1>
         <p className="pl-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Companies I have worked for and collaborated with.
         </p>
       </div>
       <div className="pl-list">

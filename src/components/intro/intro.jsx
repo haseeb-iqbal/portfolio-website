@@ -10,21 +10,21 @@ const Intro = () => {
           <h1 className="i-name">Haseeb Iqbal</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Photographer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">Front-end developer</div>
+              <div className="i-title-item">React</div>
+              <div className="i-title-item">Responsive Design</div>
+              <div className="i-title-item">API integration</div>
+              <div className="i-title-item">Git</div>
+              <div className="i-title-item">MUI</div>
+              <div className="i-title-item">Ant Design</div>
+              <div className="i-title-item">Firebase</div>
             </div>
           </div>
           <p className="i-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            Do you need a responsive website built? Along with API integration?
+            Built with CSS or UI libraries? Look no further! I am here to take
+            care of all your programming needs and guarantee to provide
+            effective communication.{" "}
           </p>
           <svg
             width="75"

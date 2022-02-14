@@ -88,10 +88,6 @@ button {
     justify-content: center;
     height: 100%;
   }
-
-  .i-desc {
-    display: none;
-  }
 }
 @media screen and (max-width: 480px) {
   .c-wrapper {

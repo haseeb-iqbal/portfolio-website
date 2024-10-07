@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.87540607.css",
+    "main.js": "/portfolio-website/static/js/main.2df7f9d3.js",
+    "static/media/fragGames.jpg": "/portfolio-website/static/media/fragGames.85e5a15c230c7a04d343.jpg",
+    "static/media/me.jpg": "/portfolio-website/static/media/me.dbfa03f017f7cbef4226.jpg",
+    "static/media/DCSL.jpg": "/portfolio-website/static/media/DCSL.51b95b5549e1dba4542d.jpg",
+    "static/media/kuatoStudios.jpg": "/portfolio-website/static/media/kuatoStudios.e94fdff723df1d90adfa.jpg",
+    "static/media/lifestyleMarketing.jpg": "/portfolio-website/static/media/lifestyleMarketing.39f177d0c24f53f0bdb7.jpg",
+    "static/media/bigumaku.jpg": "/portfolio-website/static/media/bigumaku.39041891de9f4c8225a3.jpg",
+    "static/media/klotho.jpg": "/portfolio-website/static/media/klotho.67d375e8175f6ba0be2a.jpg",
+    "static/media/github.png": "/portfolio-website/static/media/github.ff2648078e819f6a9666.png",
+    "static/media/address.png": "/portfolio-website/static/media/address.a01cb8cc428702f30bec.png",
+    "static/media/email.png": "/portfolio-website/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/sun.png": "/portfolio-website/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/portfolio-website/static/media/moon.3bea3d398a25611d421b.png",
+    "static/media/githubIcon.svg": "/portfolio-website/static/media/githubIcon.74d13353bde36d2dde5b52360f829273.svg",
+    "index.html": "/portfolio-website/index.html",
+    "main.87540607.css.map": "/portfolio-website/static/css/main.87540607.css.map",
+    "main.2df7f9d3.js.map": "/portfolio-website/static/js/main.2df7f9d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87540607.css",
+    "static/js/main.2df7f9d3.js"
+  ]
+}

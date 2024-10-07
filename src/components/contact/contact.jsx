@@ -123,7 +123,10 @@ const Contact = () => {
             any general inquiries. Looking forward to speaking to you!
           </p>
           {done ? (
-            "Thank you for your message! I will be in contact shortly"
+            <b class="submission-success-message">
+              {" "}
+              Thank you for your message! I will be in contact shortly
+            </b>
           ) : (
             <form ref={formRef} onSubmit={handleSubmit}>
               {validationErrors.sender_name && (
@@ -173,8 +176,19 @@ const Contact = () => {
             </form>
           )}
 
-          {sendingError &&
-            "Sorry but this doesn't seem to be working at the moment. Please try again later or contact me directly on my email address"}
+          {sendingError && (
+            <p class="submission-error-message">
+              Sorry but this doesn't seem to be working at the moment. Please
+              try again later or contact me directly on my email address
+            </p>
+          )}
+          <p>..or contact me directly via email by clicking the button below</p>
+          <a
+            class="email-me-button"
+            href="mailto:a.haseeb19@gmail.com?subject=Let's%20get%20in%20touch!&body=Hello%2C%0A%0AI%20came%20across%20your%20website%20and%20would%20like%20to%20chat.%0A%0ARegards%2C"
+          >
+            Email me
+          </a>
         </div>
       </div>
     </div>

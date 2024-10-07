@@ -77,7 +77,37 @@ button {
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.1s linear;
+  font-size: 15px;
+  border-radius: 3px;
 }
+
+.email-me-button {
+  display: inline-block;
+  font-family: var(--profile-font);
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 18px;
+  width: 150px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.08s ease-in-out;
+  background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 100%);
+  color: black;
+}
+
+button:hover,
+.email-me-button:hover {
+  transform: scale(1.04);
+}
+button:active,
+.email-me-button:active {
+  transform: translateY(1.5px);
+}
+
 button:disabled {
   background-color: grey;
 }
@@ -85,6 +115,14 @@ button:disabled {
 .error-message {
   color: red;
   font-size: 12px;
+  margin-bottom: -5px;
+}
+
+.submission-error-message {
+  color: rgb(153, 0, 0);
+}
+.submission-success-message {
+  color: rgb(4, 180, 63);
 }
 
 @media screen and (max-width: 480px) {

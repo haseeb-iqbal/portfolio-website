@@ -49,6 +49,7 @@
 
 form {
   margin-top: 20%;
+  width: 100%;
 }
 
 input {
@@ -75,7 +76,17 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  transition: background-color 0.1s linear;
 }
+button:disabled {
+  background-color: grey;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;

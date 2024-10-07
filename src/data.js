@@ -23,12 +23,12 @@ export const products = [
   {
     id: 4,
     img: bigumaku,
-    link: "https://www.bigumaku.com/",
+    link: "https://www.youtube.com/@bigumaku201",
   },
   {
     id: 5,
     img: kuatoStudios,
-    link: "https://kuatostudios.com/",
+    link: "https://www.youtube.com/user/KuatoStudios",
   },
   {
     id: 6,

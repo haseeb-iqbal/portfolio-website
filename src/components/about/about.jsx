@@ -18,7 +18,7 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About me</h1>
         <p className="a-sub">
-          I am a freelance web developer specialising in React. With 4 years of
+          I am a freelance web developer specialising in React. With 5 years of
           professional programming experience and a bachelors degree in computer
           science, you can rest assured that any code delivered will be high
           quality and efficient. Born and raised in Scotland, I am fluent in
